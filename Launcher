@@ -1,0 +1,8 @@
+Name: Launcher.exe , Launcher.msi , Launcher.app
+Language: windows(c#, python);mac(objective-c, shell)
+Tools: WixToolset
+Function: keeping system having the newest RPD and invoking it to join meeting.
+Main problems: 1.admin to non-admin
+
+
+
