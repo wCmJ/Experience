@@ -1,7 +1,66 @@
+In WSP, users create and initiate online video conference meetings. Scheduling a meeting in the RealPresence Web Suite Services Portal requires user or administrator account access.
+meeting type, meeting parameters, a list of participants to invite.
+
+In MEA, users attend meetings and interact with features such as content sharing and group chat.
+
 Apache Tomcat: an open-source web server and application container that runs RealPresence Web Suite Services Portal application.
+
 NTP(Network Time Protocol Server): keep all components the same time and date with the same NTP servers.
+
 nginx: an HTTP server used to render static content and delegate requests to Apache Tomcat.
+
 RealPresence Web Suite Experience Portal: the component of RealPresence Web Suite where uses attend meetings. Also known as the Meetings Experience Application(MEA)
+
 RealPresence Web Suite Service Portal: the component of RealPresence Web Suite that handles scheduling meetings, adding users, and adding contacts.WSP
+
 HTML5 data(MEA) -> (standards connector provides transcoding through Session Initiation Protocol(SIP) and Binary Floor Control Protocol(BFCP) distributed by an MCU) -> H.264 video streams signaled 
+
 Client Application: Media Framework Client(MFW) when non-WebRTC conferences and browsers,  WebRTC
+
+Distributed Media Application(DMA):Signaling, call control, and bridge virtualization
+
+RealPresence Collaboration Server(RMX):Multi-point Control Unit(MCU), or bridge, for hosting conference
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
